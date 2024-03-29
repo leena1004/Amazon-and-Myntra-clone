@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 80px;
+    background-color: white;
+    color: #282C3F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-logo {
+    width: 65px;
+    height: 40px;
+}
+
+.logo {
+    background-image: url(myntra-logo.jpeg);
+    width: 100%;
+    margin-right: 0 0 0 10%;
+    background-size: cover;
+    height: 40px;
+}
+
+.box1 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 70px;
+}
+
+.box2 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.box3 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.box4 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.box5 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.box6 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.box6 sup {
+    color: #ff3f6c;
+    width: 20px;
+    height: 13px;
+}
+
+.nav-search {
+    display: flex;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    margin-left: 290px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.search-input {
+    width: 800px;
+    font-size: 12px;
+    border: none;
+    height: 35px;
+    background-color: #f6f6f5;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height: 37px;
+    background-color: #f6f6f5;
+}
+
+.desktop-actions {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.nav-profile {
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px
+}
+
+.nav-profile i {
+    margin: 10px 0 0;
+    height: 20px;
+    width: 20px;
+}
+
+.one {
+    padding: 10px 0 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nav-wishlist {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.nav-wishlist i {
+    margin: 10px 0 0;
+    height: 20px;
+    width: 20px;
+}
+
+.two {
+    padding: 10px 0 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nav-bag {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.nav-bag i {
+    margin: 10px 0 0;
+    height: 20px;
+    width: 20px;
+}
+
+.three {
+    padding: 10px 0 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.line {
+    border: 0.1px solid rgb(250, 247, 247);
+   
+}
+
+.main-image {
+    width: 1500px;
+    height: 350px;
+    display: cover;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.message-myntra {
+    font-weight: 600;
+    margin-top: 550px;
+    height: 40px;
+    display: flex;
+    font-size: 1.3rem;
+    width:80%;
+    margin-left: 30px;
+    color: #3e4152
+}
+
+.shop-section {
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* position: absolute; */
+}
+
+.box {
+    height: 450px;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 0px;
+}
+
+.global{
+    margin-top: 250px;
+    height: 40px;
+    font-weight: 600;
+    display: flex;
+    font-size: 1.3rem;
+    width:80%;
+    margin-left: 30px;
+    color: #3e4152
+}
+
+.myntra-brand {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    /* transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-property: all; */
+    margin-top: 50px;
+    
+}
+
+.myntra-brand .transition{
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    transition-property: all;
+    width: 100%; 
+}
+
+footer {
+    margin-top: 130px;
+    background-color: #fafbfc;
+    height: 1300px
+} 
+
+.general-info {
+    Padding: 30px 0 40px;
+    margin-top: 130px; 
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.shop-links {
+    display: inline-block;
+    vertical-align: top;
+    /* padding-right: 20px; */
+}
+
+.online {
+    color: #282c3f;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 50px;   
+}
+
+.customer-policy {
+    display: inline;
+}
+
+.policy {
+    color: #282c3f;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.social-media {
+    display: inline;
+}
+
+.touch {
+    color: #282c3f;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+a {
+    margin-top: 10px
+}
+
+.useful-links {
+    display: inline;
+}
+
+.link {
+    color: #282c3f;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+ul{
+    margin-top: 30px;
+}
+
+ul a{
+    display: block;
+    font-size: 19px;
+    margin-top: 10px;
+    color: #696b79;
+}
+
+.i {
+    margin-top: 20px;
+    height: 20px;
+    justify-content: space-evenly;
+}
+
+.address {
+    margin-top: 40px;
+    /* margin-left: 190px; */
+    display: inline-block;
+    color: #94969f;
+    font-size: 19px;
+}
+
+.official {
+    font-size: 15px;
+    color: #282c3f;
+    font-weight: 600;
+    margin-left: 259px;
+}
+
+.register {
+    margin-top: 20px;
+    margin-left: 167px;
+}
+
+.foot-panel {
+    margin-top: 40px;
+    display: inline-block;
+    color: #94969f;
+    font-size: 16px;
+    justify-content: space-evenly;
+    display: inline-block;
+    align-items: center;
+}
+
+.experience {
+    font-size: 15px;
+    color: #282c3f;
+    font-weight: 600;
+    margin-left: 255px;
+}
+
+.paragraph {
+    margin-top: 5px;
+    margin-left: 257px;
+    margin-right: 237px;
+}
+
+.fingertips {
+    font-size: 15px;
+    color: #282c3f;
+    font-weight: 600;
+    margin-left: 255px;
+    margin-top: 35px;
+}
+
+.app {
+    font-size: 15px;
+    color: #282c3f;
+    font-weight: 600;
+    margin-left: 255px;
+    margin-top: 35px;
+}
+
+.history {
+    font-size: 15px;
+    color: #282c3f;
+    font-weight: 600;
+    margin-left: 255px;
+    margin-top: 35px;
+}
+
+.convenience {
+    font-size: 15px;
+    color: #282c3f;
+    font-weight: 600;
+    margin-left: 255px;
+    margin-top: 35px;
+}
